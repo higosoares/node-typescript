@@ -4,6 +4,7 @@ Cadastro de vídeos e suas categorias.
 ## Uso
 ````
 yarn install
+copy .env.example .env
 yarn typeorm migration:run -d src/database/index.ts
 yarn dev
 ````
